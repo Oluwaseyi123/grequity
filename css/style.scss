@@ -114,6 +114,21 @@ nav{
    display: none
 }
 
+.cube2, .cube3{
+    position: absolute;
+    z-index: -1;
+}
+
+.cube1{
+    position: relative;
+    top: 1%;
+}
+
+.cube2{
+    
+    left: 60%;
+    position: fixed;
+}
 
 @media screen and (min-width: 610px){
     .hero-text{
@@ -123,7 +138,9 @@ nav{
             text-align: left;
         }
     }
-
+    .cube1, .cube2, .cube3{
+        display: none;
+    }
     .hero{
         display: block;
         width: 50%;
